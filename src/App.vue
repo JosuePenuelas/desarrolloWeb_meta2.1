@@ -15,12 +15,13 @@
               </v-list>
           </v-navigation-drawer>
 
-          <v-main style="height: 1000px">
+          <v-main style="height: auto; width: auto;">
               <RouterView />
           </v-main>
       </v-layout>
   </v-card>
 </template>
+
 <script setup>
 //
 </script>
