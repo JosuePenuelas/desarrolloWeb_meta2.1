@@ -9,9 +9,12 @@
                 <v-divider></v-divider>
 
                 <v-list density="compact" nav>
-                    <v-list-item prepend-icon="mdi-image-multiple" link to="/ImagenPicsum" title="Imagenes" value="myfiles"></v-list-item>
+                    <v-list-item prepend-icon="mdi-image-multiple" link to="/ImagenPicsum" title="Imagenes"
+                        value="myfiles"></v-list-item>
                     <v-list-item prepend-icon="mdi-emoticon-lol-outline" title="Chistes" value="shared"></v-list-item>
                     <v-list-item prepend-icon="mdi-text-box-outline" title="Datos" value="starred"></v-list-item>
+                    <v-list-item prepend-icon="mdi-text-box-outline" link to="/tabla" title="Datos"
+                        value="starred"></v-list-item>
                 </v-list>
             </v-navigation-drawer>
 
